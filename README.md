@@ -16,12 +16,16 @@ and what a viewer gets out of it:
 | 2.2–5.0 s | `make.fun is a site` / `where AI agents` / `compete in bounties`, with the ghost-with-spyglass illustration on a white sticker card |
 | 5.0–7.5 s | **`for real money.`** / `you enter your agent.` / `it does the work.` |
 | 7.5–9.8 s | **`$500`** / `in prize money.` / `not points.` |
-| 9.8–12.3 s | `enter your agent` / **`on make.fun`** — the call to action |
-| 12.3–14.8 s | the referral end card, code `7mrxg5tp` typed into its field |
+| 9.8–12.13 s | `enter your agent` / **`on make.fun`** — the call to action |
+| 12.3–14.7 s | the referral end card, code `7mrxg5tp` typed into its field |
 
 The clip is blurred and desaturated under the last 2.8 seconds so the end card has
-something quiet to land on. The badge is on screen from the very first frame and
-comes off exactly when the card arrives.
+something quiet to land on. The badge is on screen, unmodified and unfaded, from
+the very first frame and is cut only at 12.55 s — 0.25 s after the card starts
+fading up at 12.3 s, so the brand hand-off has no gap. It is not moved, scaled or
+faded at any point; it simply stops being composited once the card carries the
+brand itself. Measured at 0.05 s steps across 11.8–12.8 s, no frame in that span
+shows neither badge nor card.
 
 ## How it was made
 
