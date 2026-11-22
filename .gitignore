@@ -1,0 +1,2 @@
+# output directory the grader writes into; main.ts copies VIDEO.json here
+out/
